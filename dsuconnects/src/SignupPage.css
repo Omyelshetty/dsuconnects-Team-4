@@ -1,0 +1,71 @@
+.signup-container {
+    display: flex;
+    height: 100vh; /* Ensure full height */
+  }
+  
+  .signup-form {
+    flex: 1; /* Allow the form to take the full height */
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling if the content is too tall */
+  }
+  
+  .signup-background {
+    flex: 1; /* Allow the background to take the full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; /* Adjust the background color as needed */
+    padding: 20px;
+  }
+  
+  .signup-heading {
+    margin-top: 0; /* Ensure heading doesn't go out of screen */
+    font-size: 24px;
+    color: #007BFF;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  .terms {
+    display: flex;               /* Use flexbox for layout */
+    align-items: center;        /* Center items vertically */
+    margin-bottom: 15px;       /* Space below the checkbox */
+  }
+  
+  .terms input {
+    margin-right: 10px;        /* Space between checkbox and text */
+  }
+  
+  .signup-button {
+    background-color: #007bff; /* Adjust button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+  }
+  
+  .login-text {
+    margin-top: 10px;
+    text-align: center; /* Center align login text */
+    color: #007BFF;
+  }
+  

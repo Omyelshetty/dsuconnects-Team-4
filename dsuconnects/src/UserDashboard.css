@@ -1,0 +1,120 @@
+/* Container styling */
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header */
+  .dashboard-header {
+    background-color: #1f4b99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+  }
+  
+  /* Main Content Layout */
+  .dashboard-main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .dashboard-section {
+    width: 48%;
+  }
+  
+  .upcoming-events, .recent-discussions {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-section h2 {
+    color: #1f4b99;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Event and Discussion Cards */
+  .event-card, .discussion-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card h3, .discussion-card h3 {
+    font-size: 16px;
+  }
+  
+  .event-card p, .discussion-card p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Join Discussion Button */
+  .join-button {
+    background-color: #1f4b99;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .join-button:hover {
+    background-color: #154a8e;
+  }
+  
+  /* Quick Resources */
+  .quick-resources {
+    margin-top: 20px;
+  }
+  
+  .quick-resources h2 {
+    color: #1f4b99;
+  }
+  
+  .resource-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .resource-button {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .resource-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .resource-button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Footer */
+  .dashboard-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+    color: #666;
+  }
+  

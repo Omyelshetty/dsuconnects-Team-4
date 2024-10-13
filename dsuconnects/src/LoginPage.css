@@ -1,0 +1,146 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  /* Container for the whole page */
+  .login-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Left side: Form section */
+  .form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Input fields and buttons */
+  .input-group {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .options {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    font-size: 0.9rem;
+  }
+  
+  .forgot-link {
+    color: #007BFF;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .forgot-link:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Reduced margin for better spacing */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sign-up link and footer */
+  .signup-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .signup-text a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  /* Right side: Image section */
+  .image-section {
+    flex: 1;
+    background-image: url('path_to_your_image'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adjust padding as necessary */
+  }
+  
+  .quote {
+    color: #fff; /* White text */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better readability */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the quote */
+    width: 80%; /* Adjust width as necessary */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+  
+  .quote-bold {
+    font-size: 1.5rem; /* Bold quote font size */
+    font-weight: bold; /* Make this text bold */
+    margin-bottom: 10px; /* Space between lines */
+  }
+  
+  .quote-normal {
+    font-size: 1rem; /* Normal text font size */
+  }
+  
